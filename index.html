@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="Untitled-1.css">
+    <style>
+      @media (orientation: landscape) {
+        /* При горизонтальной ориентации фоновым цветом сайта будет белый */
+        body {
+          background: #FFF;
+        }
+      }
+    
+      @media (orientation: portrait) {
+        /* При вертикальной ориентации фоновым цветом сайта будет чёрный */
+        body {
+          background: #000;
+        }
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu-icon">☰</div>
+        <h1>Header</h1>
+    </header>
+    <main>
+        <h2>Subheader</h2>
+        <div class="grid-container">
+            <div class="card large"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+    </main>
+</body>
+</html>
